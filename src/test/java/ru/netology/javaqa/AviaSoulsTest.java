@@ -188,6 +188,7 @@ public class AviaSoulsTest {
         souls.add(ticket2);
         souls.add(ticket3);
         souls.add(ticket4);
+        souls.add(ticket5);
 
         Ticket[] expected = {};
         Ticket[] actual = souls.search("Moscow", "London");
